@@ -9,18 +9,18 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="PHONEBOOK_TAB")
-public class PhoneBook {
+@Table(name="CONTACT_INFO_TAB")
+public class ContactInfo {
 	@Id
-	@Column(name="S.NO")
+	@Column(name="S.NO_COL")
 	private Integer pbId;
 	
-	@Column(name="NAME")
+	@Column(name="NAME_COL")
 	private String name;
 	
-	@Column(name="EMAIL")
+	@Column(name="EMAIL_COL")
 	private String email;
 	
-	@Column(name="PHNO")
+	@Column(name="PHNO_COL")
 	private Long phoneNo; 
 }
