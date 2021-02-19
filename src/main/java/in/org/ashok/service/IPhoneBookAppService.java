@@ -3,20 +3,20 @@ package in.org.ashok.service;
 import java.util.List;
 import java.util.Optional;
 
-import in.org.ashok.model.PhoneBook;
+import in.org.ashok.model.ContactInfo;
 
 public interface IPhoneBookAppService {
 	
-	//save phone details
-	Integer saveOrUpdatePhBook(PhoneBook pbook);
+	//Save Or Update Contact details
+	Integer saveOrUpdateContact(ContactInfo pbook);
 	
-	//get One By Id
-	Optional<PhoneBook> getOnePhBookById(Integer id);
+	//Get One Contact By Id
+	Optional<ContactInfo> getOnePhBookById(Integer id);
 	
-	//get All 
-	List<PhoneBook> getAllPhBook();
+	//Get All Contact
+	List<ContactInfo> getAllPhBook();
 	
-	//Delete By Id
+	//Delete Contact By Id
 	void deletePhBook(Integer id);
 
 }
