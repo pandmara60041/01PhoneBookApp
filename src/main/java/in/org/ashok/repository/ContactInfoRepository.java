@@ -4,10 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import in.org.ashok.model.ContactInfo;
 
-public interface PhoneBookRepository extends JpaRepository<ContactInfo, Integer> {
+public interface ContactInfoRepository extends JpaRepository<ContactInfo, Integer> {
 	
 	
 	
-	public Integer getEmailCount();
 
 }

@@ -13,7 +13,7 @@ import lombok.Data;
 public class ContactInfo {
 	@Id
 	@Column(name="S.NO_COL")
-	private Integer pbId;
+	private Integer contactId;
 	
 	@Column(name="NAME_COL")
 	private String name;
@@ -22,5 +22,5 @@ public class ContactInfo {
 	private String email;
 	
 	@Column(name="PHNO_COL")
-	private Long phoneNo; 
+	private Long contactNo; 
 }
